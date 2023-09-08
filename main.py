@@ -12,7 +12,7 @@ def test_bucketing_by_health():
   present_capacities = [115, 118, 80, 95, 91, 77]
   for i in present_capacities:
     soh = 100 * i / rated_capacity
-    if soh>=80:
+    if soh>80:
       healthy+=1
     else if 65 <= soh <= 80:
       exchange+=1
