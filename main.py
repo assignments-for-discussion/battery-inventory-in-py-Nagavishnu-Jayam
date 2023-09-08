@@ -27,5 +27,5 @@ def test_bucketing_by_health():
     assert counts["failed"] == 1
     print("Done counting :)")
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     test_bucketing_by_health()
