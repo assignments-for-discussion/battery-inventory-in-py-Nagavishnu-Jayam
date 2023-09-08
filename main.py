@@ -4,7 +4,7 @@ def count_batteries_by_health(present_capacities):
         "exchange": 0,
         "failed": 0
     }
-    
+     
     rated_capacity = 120
 
     for i in present_capacities:
