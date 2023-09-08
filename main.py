@@ -16,7 +16,7 @@ def count_batteries_by_health(present_capacities):
         elif soh < 65:
             counts["failed"] += 1
 
-    return counts
+    return count
 
 def test_bucketing_by_health():
     print("Counting batteries by SoH...\n")
